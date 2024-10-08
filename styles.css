@@ -1,0 +1,88 @@
+.container{
+    display: grid;
+    grid-gap: 60px;
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+        
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #63B3ED;
+    color:  #FFFFFF;
+}
+
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+.web-dev img{
+    float: right;
+    border-radius: 4px;
+}
+
+.careers img{
+    float: left;
+    border-radius: 4px;
+}
+
+h2{
+    font-size: 32px;
+    color:  #48BB78;
+}
+
+.date-author{
+    color: #718096;
+}
+
+.social-media, .archives{
+    color:  #48BB78;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-section{
+    background-color:  #E2E8F0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a{
+    color:  #4299E1;  
+}
+
+footer{
+    background-color:  #2C5282;
+    color:  #FFFFFF;
+    padding-left: 25%;
+}
+
